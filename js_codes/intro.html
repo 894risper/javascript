@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ris.css">
+    
+</head>
+<body>
+    <div class="container">
+    <form  name="form" onsubmit="return validateForm()">
+
+<h2>Registration</h2>
+<div class="box">
+<label for="fname">First Name</label>
+<input type="text" name="fname" id="fname">
+<div class="error" id="fnameErr"></div><br>
+</div>
+<div class="box">
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lname">
+<div class="error" id="lnameErr"></div><br>
+</div>
+<div class="box">
+
+<label for="email">Email</label>
+<input type="text" id="email" name="email">
+<div class="error" id="emailErr"></div><br>
+</div>
+
+<div class="box">
+<label for="password">Password</label>
+<input type="text" id="password" name="password">
+<div class="error" id="passwordErr"></div><br>
+</div>
+<div class="box">
+<label for="mobile">Phone_No</label>
+<input type="text" id="mobile" name="mobile" >
+<div class="error " id="mobileErr"></div><br>
+
+
+</div>
+
+<div class="box">
+<input type="submit" value="Submit">
+</div>
+
+</div>
+    </form>
+    <script src="ris.js"></script>
+</body>
+</html>

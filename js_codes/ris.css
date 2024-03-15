@@ -1,0 +1,60 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100vh;
+}
+form{
+ border:1px solid ;   
+width:200px;
+margin: 20px; ;
+padding: 20px; 
+border-radius:4px ;
+font-size: 12px;
+display: flex;
+flex-direction:column ;
+background-color: darkcyan;
+}
+h2{
+color: bisque;
+text-transform: uppercase;
+text-align: center;
+text-shadow: gold;
+
+}
+label{
+   display: block; 
+   margin-bottom: 5px;
+}
+.box{
+    padding: bottom 10px; 
+}
+.form-inline{
+border:1px solid ;
+padding: 8px;
+border-radius:2px ;
+}
+.error{
+ color:red ; 
+ font-size:90% ;  
+}
+input[type="text"]{
+outline:none
+
+
+}
+input[type="submit"]{
+font-size:100% ;
+font-weight: 200;
+background-color:purple;
+color: beige;
+box-shadow:blue;
+cursor:pointer ;
+}
+input[type="submit"]:hover{
+background-color: chartreuse;
+
+
+
+}    
