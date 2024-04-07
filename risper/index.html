@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+ <header class="top">
+
+<input type="text" id="nameinput" placeholder="enter your name">
+<p id="nameDisplay">Entered Name</p>
+
+ </header>
+ <hr> 
+   
+<form action="" id="myForm" onsubmit="return validateForm()">
+<div class="box">
+<label for="phoneNo"> Phone Number</label>
+<input type="text" id="phoneNo" name="phoneNo"><br>
+<div class="error" id="phoneErr"></div><br>
+</div>
+<div class="box">
+<label for="regNo">Registration Number</label>
+<input type="text" id="regNo" name="regNo" placeholder="regNo"><br>
+<div class="error" id="regErr"></div><br>
+</div>
+<input type="submit" value="submit">
+</form>
+
+<div class="form-details-container">
+  <div id="formDetailsDisplay"></div>
+</div>
+
+</div>    
+  <script src="form.js"></script>  
+</body>
+</html>
